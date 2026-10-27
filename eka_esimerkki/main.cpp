@@ -5,8 +5,12 @@ using namespace std;
 int main()
 {
     string name;
+    int age;
     cout << "Anna nimesi"<<endl;
     cin>>name;
-    cout<<"Terve "<<name<<" miten menee?";
+    cout << "Kuinka vanha olet?"<<endl;
+    cin>>age;
+
+    cout<<"Terve "<<name<<" olet siis "<<age<<" vuotias"<<endl;
     return 0;
 }
