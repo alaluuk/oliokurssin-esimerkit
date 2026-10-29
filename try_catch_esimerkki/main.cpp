@@ -28,7 +28,7 @@ int main()
         try {
             number=stoi(word);
             cout<<"Kaksinkertaisena luku="<<2*number<<endl;
-        } catch (...) {
+        } catch (out_of_range &e) {
             cout<<"Jokin meni vikaan"<<endl;
         }
     }
