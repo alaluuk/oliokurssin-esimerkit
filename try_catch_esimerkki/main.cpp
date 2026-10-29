@@ -28,8 +28,12 @@ int main()
         try {
             number=stoi(word);
             cout<<"Kaksinkertaisena luku="<<2*number<<endl;
-        } catch (out_of_range &e) {
-            cout<<"Jokin meni vikaan"<<endl;
+        }
+        catch (const invalid_argument&) {
+            cout << "Ei ole luku!" << endl;
+        }
+        catch (const out_of_range&) {
+            cout << "Luku on liian suuri!" << endl;
         }
     }
     return 0;
