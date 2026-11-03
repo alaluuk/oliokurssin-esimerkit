@@ -30,7 +30,7 @@ int main()
             cout<<"Kaksinkertaisena luku="<<2*number<<endl;
         }
         catch (const invalid_argument&) {
-            cout << "Ei ole luku!" << endl;
+            cout << "Ei ole luku!" <<endl;
         }
         catch (const out_of_range&) {
             cout << "Luku on liian suuri!" << endl;
