@@ -18,6 +18,7 @@ int main()
     cin>>annettu_luku;
     luvun_nelio=laskeNelio(annettu_luku);
     cout<<"Luvun "<<annettu_luku<<" nelio on "<<luvun_nelio<<endl;
+    cout<<"Ubuntu Test"<<endl;
     return 0;
 }
 int laskeNelio(int value){
