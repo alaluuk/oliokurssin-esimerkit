@@ -16,8 +16,9 @@ int main()
 
     //lisätään kaksi uutta oliota listaan
     //emplace_back metodilla
-    personList.emplace_back(Person("Liisa","Virta"));
-    personList.emplace_back(Person("Ville","Joki"));
+    //tähän pieni korjaus 5.11.2026
+    personList.emplace_back("Liisa","Virta");
+    personList.emplace_back("Ville","Joki");
 
     //kysytään käyttäjältä henkilön etunimi ja sukunimi
     //ja lisätään listaan
@@ -27,7 +28,7 @@ int main()
     cin>>newfn;
     cout<<"Anna sukunimi :";
     cin>>newln;
-    personList.emplace_back(Person(newfn, newln));
+    personList.emplace_back(newfn, newln);
 
     //sama toisella tavalla
     Person objPerson2;
