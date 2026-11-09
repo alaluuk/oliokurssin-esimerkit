@@ -1,4 +1,4 @@
-# Kahviatomaatti
+# Kahviautomaatti
 
 Kahviautomaatti on laite, joka valmistaa käyttäjälle kahvia. Automaatissa on tietty määrä vettä ja kahvipapuja. Käyttäjä voi valita haluamansa kahvityypin, esimerkiksi tavallisen kahvin tai espresson.
 
