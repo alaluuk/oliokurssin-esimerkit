@@ -2,7 +2,7 @@
 
 Luokka **Opiskelija** perii luokan **Henkilo**
 
-```Mermaid
+```mermaid
 classDiagram
     class Henkilo{
         -string nimi
@@ -22,6 +22,7 @@ classDiagram
         +setOpiskelijanumero(string) void
         +tulostaTiedot() void
     }
+
     Henkilo <|-- Student
 
 
