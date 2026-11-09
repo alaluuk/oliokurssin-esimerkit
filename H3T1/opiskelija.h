@@ -4,7 +4,7 @@
 using namespace std;
 #include "henkilo.h"
 
-class Opiskelija : public Henkilo
+class Opiskelija : protected Henkilo
 {
 private:
     string opiskelijanumero;
