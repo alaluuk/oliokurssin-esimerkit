@@ -9,9 +9,9 @@ int main()
     //objH.nimi="Juuso";
 
     Opiskelija objOp;
-    // objOp.setNimi("Alli Meri");
-    // objOp.setIka(22);
-    // objOp.setOpiskelijanumero("T501");
+    objOp.setNimi("Alli Meri");
+    objOp.setIka(22);
+    objOp.setOpiskelijanumero("T501");
 
     objH.tulostaTiedot();
     objOp.tulostaTiedot();
