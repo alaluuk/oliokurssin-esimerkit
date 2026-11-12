@@ -11,4 +11,10 @@ void Person::sayStatus()
 }
 
 Person::Person(string n):name(n) {
+    cout<<"  luotiin Person olio"<<endl;
+}
+
+Person::~Person()
+{
+    cout<<"  Person olio tuhottiin"<<endl;
 }
