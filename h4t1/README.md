@@ -13,7 +13,7 @@ classDiagram
         - string katu
         - string postinumero
         - string kaupunki
-            void tulostaTiedot() const;
+        + tulostaTiedot() void
         + getKatu() string
         + setKatu(string) void
         + getPostinumero() string
