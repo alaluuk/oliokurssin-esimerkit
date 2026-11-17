@@ -1,0 +1,1 @@
+# Pankkitilijärjestelmän luokkakaavio

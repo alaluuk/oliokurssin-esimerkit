@@ -10,5 +10,6 @@ int main()
     objectHenkilo.ika=33;
     objectHenkilo.nimi="Teppo";
     cout<<"Nimi="<<objectHenkilo.nimi<<" ja ika="<<objectHenkilo.ika<<endl;
+
     return 0;
 }
