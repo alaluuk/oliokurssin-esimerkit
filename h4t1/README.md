@@ -21,5 +21,6 @@ classDiagram
         + getKaupunki() string
         + setKaupunki(string) void
     }
+    
     Henkilo *-- Osoite : asuu
 ```
