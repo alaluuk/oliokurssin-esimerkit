@@ -18,12 +18,12 @@ class Osoite{
 class Henkilo{
     - string enimi
     - string snimi
-    - unique_ptr(Osoite) objOsoite
+    - Osoite objOsoite
     + Henkilo(string, string, string, string, string)
     + tulostaTiedot() void
 }
 class Yritys{
-    - vector(unigue_ptr(Henkilo)) henkiloLista
+    - Henkilo henkiloLista
     - string nimi
     - string toimiala
     + Yritys()
