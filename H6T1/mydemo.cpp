@@ -7,6 +7,7 @@ MyDemo::MyDemo(QObject *parent)
     //connect(this, &MyDemo::mySignal, this, &MyDemo::mySlot);
 
     //2.korvataan slot lambda funktiolla
+    //nyt siis metodi mySlot voitaisiin poistaa
 
     connect(this, &MyDemo::mySignal, this,[](string na){
         cout<<"Terve "<<na<<endl;
