@@ -19,5 +19,4 @@ int main(int argc, char *argv[])
     // to QCoreApplication::exec() or use the Non-Qt Plain C++ Application template.
 
     return QCoreApplication::exec();
-    //return 0;
 }

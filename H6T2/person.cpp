@@ -1,5 +1,8 @@
 #include "person.h"
 
+#include <QCoreApplication>
+
+
 Person::Person(QObject *parent)
     : QObject{parent}
 {}
@@ -29,6 +32,8 @@ void Person::getJsonData()
                  <<json_array.at(0)["lastname"].toString();
 
         reply->deleteLater();
+
+        QCoreApplication::quit();
     });
 
 }
